@@ -1,4 +1,5 @@
 import { Settings, X, Flag } from "lucide-react";
+import Loader from "./components/Loader";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <X className="cursor-pointer" onClick={() => window.close()} />
           </div>
         </nav>
+        <Loader />
       </section>
     </main>
   );
